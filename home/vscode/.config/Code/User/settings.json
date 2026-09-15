@@ -1,0 +1,63 @@
+{
+    // Font settings
+    "editor.fontFamily": "'HackGen Console NF', 'Noto Sans Mono CJK JP', monospace",
+
+    // Editor settings
+    "files.insertFinalNewline": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+
+    // Explorer settings
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+
+    // Icon and color themes settings
+    "workbench.iconTheme": "material-icon-theme",
+
+    // GitHub Copilot settings
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+    },
+
+    // typst settings
+    "tinymist.formatterMode": "typstyle",
+    "tinymist.formatterIndentSize": 2,
+    "[typst]": {
+        "editor.formatOnSave": true,
+    },
+
+    // LaTeX Workshop settings
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk (uplatex + bibtex + dvipdfmx + shell-escape)",
+            "command": "latexmk",
+            "args": [
+                "-e",
+                "$latex = 'uplatex -shell-escape -interaction=nonstopmode -synctex=1'",
+                "-e",
+                "$bibtex = 'biber %B'",
+                "-e",
+                "$dvipdf = 'dvipdfmx %O -o %D %S'",
+                "-pdfdvi",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%",
+            ],
+        },
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk (uplatex + bibtex + dvipdfmx + shell-escape)",
+            "tools": [
+                "latexmk (uplatex + bibtex + dvipdfmx + shell-escape)"
+            ],
+        },
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "python.analysis.typeCheckingMode": "standard",
+    "workbench.colorTheme": "Dark Modern"
+}

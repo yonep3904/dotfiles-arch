@@ -1,0 +1,20 @@
+[Added Associations]
+text/plain=org.gnome.TextEditor.desktop;
+text/markdown=org.gnome.TextEditor.desktop;
+text/csv=org.gnome.TextEditor.desktop;
+text/x-c++src=org.gnome.TextEditor.desktop;
+text/x-python=org.gnome.TextEditor.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-T9XRT3.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-T9XRT3.desktop;
+x-scheme-handler/net.thunderbird=userapp-Thunderbird-1DWWT3.desktop;
+message/rfc822=userapp-Thunderbird-T9XRT3.desktop;
+
+[Default Applications]
+inode/directory=thunar.desktop
+application/pdf=org.pwmt.zathura.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-T9XRT3.desktop
+x-scheme-handler/mid=userapp-Thunderbird-T9XRT3.desktop
+x-scheme-handler/net.thunderbird=userapp-Thunderbird-1DWWT3.desktop
+message/rfc822=userapp-Thunderbird-T9XRT3.desktop
+x-scheme-handler/codex=chatgpt.desktop
+text/csv=org.gnome.TextEditor.desktop

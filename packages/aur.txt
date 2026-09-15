@@ -1,0 +1,14 @@
+cbonsai-git
+fcitx5-mozc-ut
+fcitx5-skin-fluentdark-git
+google-chrome
+hyprshell
+mozc-ut
+ngrok
+pingu-bin
+pipes.sh
+timg
+ttf-hackgen
+ttf-udev-gothic
+tty-clock-git
+visual-studio-code-bin
