@@ -1,0 +1,9 @@
+* {
+    /* Keep the base black; derive just the supporting colors from the wallpaper. */
+    background: #000000;
+    background-alt: {{colors.surface_container.default.hex}}e8;
+    foreground: {{colors.on_surface.default.hex}}ff;
+    selected: {{colors.primary_container.default.hex}}e8;
+    active: {{colors.secondary_container.default.hex}}e8;
+    urgent: {{colors.error.default.hex}}ff;
+}

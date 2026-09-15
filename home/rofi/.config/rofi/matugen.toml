@@ -1,0 +1,5 @@
+[config]
+
+[templates.rofi]
+input_path = '~/.config/rofi/templates/colors.rasi'
+output_path = '~/.cache/rofi-serpantinum/colors.generated.rasi'
